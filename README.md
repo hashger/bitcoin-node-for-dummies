@@ -9,6 +9,6 @@ Nuestro nodo esta corriendo en una laptop con las siguientes especificaciones:
 -External HDD 1TB (donde se almacena la blockchain)
 -Ubuntu 18
 
-Compala tu nodo
+###Compila tu nodo
 
 
