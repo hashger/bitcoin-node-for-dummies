@@ -5,9 +5,11 @@ Sabemos que correr un nodo de bitcoin puede sonar solo para desarrolladores Top 
 ### Our Version
 Nuestro nodo esta corriendo en una laptop con las siguientes especificaciones:
 
--HP Envy 14, procesador iCore i5, 6 GB de Ram 
--External HDD 1TB (donde se almacena la blockchain)
--Ubuntu 18
+* HP Envy 14, procesador iCore i5, 6 GB de Ram 
++ External HDD 1TB (donde se almacena la blockchain)
+- Ubuntu 18
+
+## Descarga el codigo de Github
 
 ### Clona el repositorio de Bitcoin
 ```
