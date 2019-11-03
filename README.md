@@ -69,7 +69,7 @@ una vez instalado ejecuta los siguientes comandos:
 $ which bitcoind
 /usr/local/bin/bitcoind
 
-which bitcoin-cli
+$ which bitcoin-cli
 /usr/local/bin/bitcoin-cli
 ```
 #### Tu Nodo de bitcoin ha sido instalado correctamente
@@ -85,14 +85,17 @@ txindex=1
 ## Corriendo el nodo
 ### Visualiza en consola
 ```
-bitcoind -printtoconsole
+$ bitcoind -printtoconsole
 ``` 
-Visualizaras la descarga y el proceso de tu nodo en la terminal
-Tu nodo de bitcoin correra, 
+Visualizaras la descarga y el proceso de tu nodo en la terminal. Para detenerlo ejectua "Ctrl + C" 
 ### Bitcoin Daemon
 ```
 bitcoind -daemon
 ```
 Tu nodo correra en segundo plano y podras utilizar la linea de comandos, ademas podras hacer llamadas a traves de JSON RPC.
+### Deten el demonio
+```
+$ bitcoin-cli stop
+```
 
 
